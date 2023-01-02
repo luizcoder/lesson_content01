@@ -1,0 +1,65 @@
+.app p {
+  font-size: 100px;
+  text-align: center;
+}
+
+.block {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(245 245 245);
+  color: white;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.PhotoCardList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.PhotoCard {
+  margin:5px;
+  background-color: blanchedalmond;
+  color:blue;
+  padding: 5px;
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  text-align: left;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
